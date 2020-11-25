@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@keyframes fadein{
+  0%{opacity: 0;}
+  100%{opacity: 1}
+}
+body{
+	color:#000;
+	line-height: 1.5;
+	background: #eee;
+    font-family: study, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    animation: fadein 2s;
+}
+#profile{
+	background:#b94669;
+}
+#gallery{
+	background:#1cb4b3;
+}
+#mailto{
+    background: #004196;
+}
+#tokyo{
+    background: #000;
+}
+img{
+	vertical-align: bottom;
+}
+#wrapper{
+    width: auto;
+    margin: 0 auto;
+}
+#photo-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 240px;
+}
+header h1{
+    margin-top:20px;
+    margin-left: 5%;
+    font-size: 30px;
+    font-family: mrs-eaves, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color:#fff;
+    position: fixed;
+    z-index: 100;
+}
+header h2{
+    margin-top:60px;
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: mrs-eaves, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color:#fff;
+    position: fixed;
+    z-index: 100;
+}
+nav{
+    margin-bottom: 5px;
+    position: fixed;
+    top:10px;
+    right: 100px;
+    z-index: 100;
+}
+nav ul{
+	padding: 0;
+	list-style: none;
+	display: flex;
+    justify-content:flex-end;
+    color:#fff;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    width: 100px;
+    line-height: 50px;
+    color:#fff;
+    padding: 0 .3em;
+}
+nav ul li a:hover {
+    color:#b90032;
+    text-decoration: underline;
+    transition: 2s;
+}
+#top-main{
+    height: 800px;
+}
+#content{
+    display: flex;
+    justify-content:center;
+}
+#content img{
+    margin-top: 10px;
+}
+main article{
+    width: 600px;
+    background:rgba(255,255,255,0.80);
+    margin-top: 10px;
+}
+article section h1{
+	font-size: 20px;
+    color: #000000;
+	font-weight: bold;
+    margin-top: 70px;
+    text-align: center;
+}
+main article section p{
+    font-size: 13px;
+    color: #000000;
+    margin: 40px 100px;
+}
+#gallery2 ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+#gallery2 ul li a{
+    margin: 5px;
+    display: block;
+}
+footer{
+	text-align: center;
+	padding: 10px;
+    color: #fff;
+}
+footer small{
+	font-size: 12px;
+}
+.focusbtn{
+	text-decoration: underline;
+}
+.pagetop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.pagetop a {
+    display: block;
+    background-color: #ccc;
+    text-align: center;
+    color: #222;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+.pagetop a:hover {
+    display: block;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding:20px 10px;
+}
+#lineup{
+    height: 500px;
+}
+#lineup h2{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin:40px;
+}
+#lineup p{
+    text-align: center;
+    line-height: 40px;
+    
+}
+#lineup p a{
+    color: #fff;
+}
+#contact{
+    background: #000;
+}
+.photo{
+    margin-left: 15%;
+}
