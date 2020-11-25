@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Shoko Nakamura</title>
+    
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/vvi4yhk.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.backstretch.js"></script>
+    
+    <script>
+$(document).ready(function(){
+	  $.backstretch([
+      "images/top_bg1.jpg"
+    , "images/top_bg2.jpg"
+    , "images/top_bg3.jpg"
+  ], {duration: 3000, fade: 750});
+});
+</script>
+
+<script>
+$(function(){
+	$(window).scroll(function (){
+		$('.fadein').each(function(){
+			var elemPos = $(this).offset().top;
+			var scroll = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (scroll > elemPos - windowHeight + 200){
+				$(this).addClass('scrollin');
+			}
+		});
+	});
+});
+    </script>
+</head>
+
+<body>
+<div id="wrapper">
+<header>
+<h1>Shoko Nakamura</h1>
+<h2>shokonakamura20@gmail.com　<a href="https://www.instagram.com/nakakosh/" target="_blank"><img src="images/instagram.png" width="30px"></a>
+    </h2>
+
+
+<nav>
+<ul>
+<li><a href="index.html" class="focusbtn">HOME</a></li>
+<li><a href="GALLERY.html">GALLERY</a></li>
+</ul>
+</nav>
+</header>
+        
+<div id="top-main"></div>        
+<footer>
+<small>Copyright&copy; 2020 Shoko Nakamura.All rights reserved.</small>
+</footer>
+    </div>
+  
+    
+</body>
+</html>
